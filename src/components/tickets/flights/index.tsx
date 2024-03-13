@@ -1,5 +1,4 @@
 import { Tab } from "@headlessui/react";
-import { useTranslation } from "react-i18next";
 import Input from "../../schema/Input";
 import Select from "../../schema/Select";
 import Button from "../../schema/Button";
@@ -11,13 +10,10 @@ function classNames(...classes: string[]) {
 }
 
 export default function FlightTabs() {
-  const [t, i18n] = useTranslation("global");
+  // const [t, i18n] = useTranslation("global");
 
   return (
-    <div
-      className="w-full px-2 sm:px-0"
-      dir={i18n.language === "en" ? "ltr" : "rtl"}
-    >
+    <div className="w-full px-2 sm:px-0" dir="rtl">
       <Tab.Group>
         <Tab.List className="w-[400px] flex justify-end items-end space-x-1 bg-background/20">
           <Tab
@@ -79,7 +75,7 @@ export default function FlightTabs() {
                   <h4>طيران مباشر فقط</h4>
                 </div>
                 <div className="flex flex-row gap-5">
-                  <div className="flex flex-row">
+                  <div className="flex flex-row gap-2">
                     <Select name="1 بالغ" />
                     <Select name="الدرجة الإقتصادية" />
                     <Select name="2 طرق دفع" />
@@ -111,7 +107,7 @@ export default function FlightTabs() {
                   <h4>طيران مباشر فقط</h4>
                 </div>
                 <div className="flex flex-row gap-5">
-                  <div className="flex flex-row">
+                  <div className="flex flex-row gap-2">
                     <Select name="1 بالغ" />
                     <Select name="الدرجة الإقتصادية" />
                     <Select name="2 طرق دفع" />
@@ -157,7 +153,7 @@ export default function FlightTabs() {
               </div>
               <div className="w-full flex flex-row items-end justify-end">
                 <div className="flex flex-row gap-5">
-                  <div className="flex flex-row">
+                  <div className="flex flex-row gap-2">
                     <Select name="1 بالغ" />
                     <Select name="الدرجة الإقتصادية" />
                     <Select name="2 طرق دفع" />

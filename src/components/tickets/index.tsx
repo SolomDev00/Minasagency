@@ -1,5 +1,4 @@
 import { Tab } from "@headlessui/react";
-import { useTranslation } from "react-i18next";
 import FlightTabs from "./flights";
 import { LuHotel, LuPlane, LuSearch } from "react-icons/lu";
 import Button from "../schema/Button";
@@ -11,12 +10,13 @@ function classNames(...classes: string[]) {
 }
 
 export default function TicketTabs() {
-  const [t, i18n] = useTranslation("global");
+  // const [t, i18n] = useTranslation("global");
 
   return (
     <div
       className="w-full px-2 sm:px-0"
-      dir={i18n.language === "en" ? "ltr" : "rtl"}
+      dir="rtl"
+      // dir={i18n.language === "en" ? "ltr" : "rtl"}
     >
       <Tab.Group>
         <Tab.List className="w-[400px] flex justify-end items-end space-x-1 bg-background/20">
@@ -84,7 +84,7 @@ export default function TicketTabs() {
                   </div>
                   <div className="w-full space-y-2 pb-1">
                     <label htmlFor="wInput" className="text-black text-sm">
-                      تسجيل خروجص
+                      تسجيل خروج
                     </label>
                     <Input id="wInput" placeholder="جمعة, 15 مارس" />
                   </div>
