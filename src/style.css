@@ -1,25 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-optical-sizing: auto;
-  font-family: "Cairo", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 :root {
-  --primary-100: #ff3f00;
-  --primary-200: #ff763a;
-  --primary-300: #ffe099;
-  --accent-100: #ffc801;
-  --accent-200: #916a00;
-  --text-100: #8fb635;
-  --text-200: #719912;
-  --bg-100: #f9f9f9;
-  --bg-200: #faf3f3;
-  --bg-300: #ffeaea;
-  --bg-400: #fdf2f2;
+  --primary-100: #0085ff;
 }
 
 /* --- Global Styles --- */
@@ -68,7 +58,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-transform: translate(-45px);
   -ms-transform: translate(-45px);
   transform: translate(-45px);
-  background-color: #069603;
+  background-color: var(--primary-100);
   -webkit-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -78,12 +68,12 @@ body::-webkit-scrollbar-thumb {
   mask-image: url(assets/headline-curve.svg);
 }
 
-.mark-zigzag {
+.mark-z {
   position: relative;
-  padding: 0 0 10px;
+  padding: 0 0 5px;
 }
 
-.mark-zigzag::after {
+.mark-z::after {
   content: "";
   position: absolute;
   width: 91px;
@@ -94,7 +84,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-transform: translate(-45px);
   -ms-transform: translate(-45px);
   transform: translate(-45px);
-  background-color: #ffc221;
+  background-color: #fff;
   -webkit-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -103,6 +93,30 @@ body::-webkit-scrollbar-thumb {
   -webkit-mask-image: url(assets/headline-underline-zigzag.svg);
   mask-image: url(assets/headline-underline-zigzag.svg);
 }
+
+/* --- LandingSection --- */
+.landing-background {
+  border-radius: 0 0 100% 100%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.landingBackground {
+  background-image: url(./assets/backgrounds/landing.webp);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+}
+
+/* --- TicketSection --- */
 
 @tailwind base;
 @tailwind components;

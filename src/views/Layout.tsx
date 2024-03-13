@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../components/navbar";
 import { useEffect, useState } from "react";
 import HomeLoading from "../components/loading/home";
-import Footer from "../components/footer";
+// import Footer from "../components/footer";
 
 const RootLayout = () => {
   const [loading, setLoading] = useState(true);
@@ -23,12 +23,10 @@ const RootLayout = () => {
       ) : (
         <>
           <Navbar />
-          <div className="flex flex-col min-h-screen">
-            <div className="flex-grow container">
-              <Outlet />
-            </div>
+          <div className="min-h-screen w-full">
+            <Outlet />
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </>
       )}
     </div>

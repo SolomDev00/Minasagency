@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 import UK from "../../assets/uk.png";
 import UAE from "../../assets/uae.png";
 import { Link } from "react-router-dom";
-import LogoImg from "../../assets/logo.jpeg";
+import LogoImg from "../../assets/light.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -73,8 +73,8 @@ const Navbar = () => {
   return (
     <header
       className={`header ${
-        scrolling ? "bg-white dark:bg-black" : "bg-transparent"
-      } duration-200 ${scrolling ? "bg-transparent" : "text-black"} ${
+        scrolling ? "bg-white" : "bg-transparent"
+      } duration-200 ${scrolling ? "bg-transparent" : "text-white"} ${
         showMenu ? "menu-open" : ""
       } ${i18n.language === "en" ? "en" : "ar"}`}
       style={{
@@ -90,7 +90,7 @@ const Navbar = () => {
     >
       <div
         className={`menu__wrapper duration-200 ${
-          scrolling ? "bg-white dark:bg-black" : "text-transparent"
+          scrolling ? "bg-white" : "text-transparent"
         }`}
         style={{
           background: `${window.scrollY < 10 ? "transparent" : ""}`,
@@ -114,7 +114,7 @@ const Navbar = () => {
             <ul className="navigation mt-4 hide">
               <li>
                 <Link
-                  className="text-black dark:text-[#f9f9f9] duration-150"
+                  className="text-white duration-150"
                   to="/"
                   title={t("navbar.home")}
                 >
@@ -123,7 +123,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-black dark:text-[#f9f9f9] duration-150"
+                  className="text-white duration-150"
                   to="/about-us"
                   title={t("navbar.about")}
                 >
@@ -132,7 +132,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-black dark:text-[#f9f9f9] duration-150"
+                  className="text-white duration-150"
                   to="/flight"
                   title={t("navbar.flight")}
                 >
@@ -141,7 +141,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-black dark:text-[#f9f9f9] duration-150"
+                  className="text-white duration-150"
                   to="/services"
                   title={t("navbar.services")}
                 >
@@ -150,7 +150,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-black dark:text-[#f9f9f9] duration-150"
+                  className="text-white duration-150"
                   to="/partners"
                   title={t("navbar.partners")}
                 >
@@ -203,11 +203,11 @@ const Navbar = () => {
           onClick={toggleMenu}
         >
           {showMenu ? (
-            <XMarkIcon className={"fill-black dark:fill-white"} />
+            <XMarkIcon className={"fill-white"} />
           ) : i18n.language === "en" ? (
-            <Bars3BottomRightIcon className={"fill-black dark:fill-white"} />
+            <Bars3BottomRightIcon className={"fill-white"} />
           ) : (
-            <Bars3BottomLeftIcon className={"fill-black dark:fill-white"} />
+            <Bars3BottomLeftIcon className={"fill-white"} />
           )}
         </button>
         {showMenu && (

@@ -1,9 +1,11 @@
 import LandingSection from "./website/LandingSection";
+import TicketSection from "./website/TicketSection";
 
 const HomePage = () => {
   return (
-    <div className="w-full h-auto space-y-56 mb-8 max-sm:space-y-56 max-sm:overflow-x-hidden">
+    <div className="w-full mb-8 max-sm:overflow-x-hidden">
       <LandingSection />
+      <TicketSection />
     </div>
   );
 };

@@ -9,7 +9,7 @@ const ErrorHandler = ({ statusCode = 500, title = "Server Error" }: IProps) => {
   const { pathname } = useLocation();
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center p-5 w-full">
+    <div className="bg-black fixed inset-0 flex items-center justify-center p-5 w-full">
       <div className="text-center">
         <div className="inline-flex rounded-full bg-red-100 p-4">
           <div className="rounded-full stroke-red-600 bg-red-200 p-4">
@@ -44,7 +44,7 @@ const ErrorHandler = ({ statusCode = 500, title = "Server Error" }: IProps) => {
         <div className="flex items-center justify-center space-x-4 my-10">
           <Link
             to={"/"}
-            className="inline-block bg-hover p-2 text-white hover:!text-white rounded-md"
+            className="bg-primary inline-block bg-hover p-2 text-white hover:!text-white rounded-md"
             reloadDocument
           >
             Home
