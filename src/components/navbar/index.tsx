@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import {
   Bars3BottomLeftIcon,
   Bars3BottomRightIcon,
+  PhoneIcon,
   XMarkIcon,
 } from "@heroicons/react/20/solid";
 import { useTranslation } from "react-i18next";
@@ -187,9 +188,11 @@ const Navbar = () => {
               to="/contact"
               title={t("navbar.contact")}
               target="_blank"
-              className="primary"
+              className={`primary flex ${
+                i18n.language === "en" ? "flex-row" : "flex-row-reverse"
+              } justify-between items-center gap-2 hover:to-blue-700`}
             >
-              {t("navbar.contact")}
+              <PhoneIcon className="w-5 h-5" /> {t("navbar.contact")}
             </Link>
           </div>
         </div>
