@@ -1,0 +1,12 @@
+{
+  "navbar": {
+    "logo": "Minasagency",
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "partners": "Partners",
+    "contact": "Contact Us",
+    "lang": "Language",
+    "flight": "Flight schedules"
+  }
+}
