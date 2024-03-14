@@ -116,7 +116,88 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
 }
 
-/* --- TicketSection --- */
+/* --- BlogSection --- */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 24px !important;
+  color: var(--primary-100) !important;
+}
+
+.slick-arrow {
+  /* margin-top: -10px !important; */
+  margin: 0 -5px !important;
+}
+
+.silder {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.slick-slide {
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.slick-slider {
+  height: 300px;
+}
+
+/* --- HotalSection --- */
+.places {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+  color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  margin: 8px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  width: 176px;
+}
+
+.placesImg {
+  border-radius: inherit;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-fit: var(--image-object-fit, cover);
+  object-fit: var(--image-object-fit, cover);
+  position: absolute;
+  transition: opacity 0.5s ease;
+  width: 100%;
+}
+
+.placesText {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* .sliderT {
+  width: 175px !important;
+} */
+
+/* --- Category --- */
+.placeBox {
+  border-radius: 8px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+  color: #1d1d1d;
+  display: flex;
+  height: 148px;
+  overflow: hidden;
+  text-decoration: none;
+  width: 300px;
+}
 
 @tailwind base;
 @tailwind components;

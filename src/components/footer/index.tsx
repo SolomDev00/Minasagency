@@ -1,20 +1,67 @@
+// import { LuFacebook } from "react-icons/lu";
+import {
+  LuFacebook,
+  LuInstagram,
+  LuLinkedin,
+  LuTwitter,
+  LuYoutube,
+} from "react-icons/lu";
 import "./Footer.style.css";
-import logo from "../../assets/logo.jpeg";
-import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const [t] = useTranslation("global");
-
   return (
-    <footer className="bg-white dark:bg-[#333] h-[17vh] max-sm:max-h-[21vh] max-sm:min-h-[21vh] xl:h-[15.5vh]">
+    <footer className="bg-[#1d1d1d] pb-5" dir="rtl">
       <div className="container">
-        <div className="flex flex-row items-center justify-center mb-5 pt-5"></div>
-        <div className="w-full flex justify-center items-center">
-          <div className="border-t-[1px] border-black dark:border-white w-[600px]" />
-          <img src={logo} alt="logo" />
+        <div className="flex pt-10">
+          <div className="flex-shrink-0 w-1/4">
+            <h4 className="text-lg text-white font-medium">الشركة</h4>
+            <ul className="mt-5">
+              <li className="text-base text-white">عن ميناس</li>
+              <li className="text-base text-white">الصحافة</li>
+              <li className="text-base text-white">الوظائف</li>
+              <li className="text-base text-white">اتصل بنا</li>
+            </ul>
+          </div>
+          <div className="flex-shrink-0 w-1/4">
+            <h4 className="text-lg text-white font-medium">اعرف المزيد</h4>
+            <ul className="mt-5">
+              <li className="text-base text-white">احجز مع ميناس</li>
+              <li className="text-base text-white">الشركاء</li>
+              <li className="text-base text-white">للإعلان</li>
+              <li className="text-base text-white">أصحاب الفنادق</li>
+              <li className="text-base text-white">سياسة الخصوصية</li>
+              <li className="text-base text-white">الشروط و الأحكام</li>
+            </ul>
+          </div>
+          <div className="flex-shrink-0 w-1/4">
+            <h4 className="text-lg text-white font-medium">بحث</h4>
+            <ul className="mt-5">
+              <li className="text-base text-white">دليل المطار</li>
+              <li className="text-base text-white">دليل الخطوط الجوية</li>
+              <li className="text-base text-white">مواعيد رحلات الطٌيران</li>
+              <li className="text-base text-white">سلاسل الفنادق</li>
+            </ul>
+          </div>
+          <div className="flex-shrink-0 w-1/4">
+            <h4 className="text-lg text-white font-medium">الدعم</h4>
+            <ul className="mt-5">
+              <li className="text-base text-white">مشاكل تقنية</li>
+              <li className="text-base text-white">مشاكل إدارية</li>
+            </ul>
+          </div>
         </div>
-        <div className="flex flex-row justify-center items-center pt-2 text-sm max-sm:text-xs text-black dark:text-gray-400">
-          <h5 className="text-center">&#169; {t("footer.copyrights")}</h5>
+        <div className="w-full h-[1px] bg-[#565656] mt-6 mb-2" />
+        <div className="w-full flex flex-row-reverse justify-between items-center">
+          <p className="text-sm text-white">
+            .Copyright 2022 - 2024 Minasagency. All rights reserved
+          </p>
+          <div className="flex flex-row items-center gap-3 cursor-pointer">
+            <LuInstagram className="text-white" />
+            <LuTwitter className="text-white" />
+            <LuLinkedin className="text-white" />
+            <LuYoutube className="text-white" />
+            <LuFacebook className="text-white" />
+          </div>
         </div>
       </div>
     </footer>

@@ -18,7 +18,7 @@ i18n.use(initReactI18next).init({
       global: global_ar,
     },
   },
-  lng: "en",
+  lng: "ar",
 
   interpolation: {
     escapeValue: false,
