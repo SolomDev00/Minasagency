@@ -14,12 +14,12 @@ export default function TicketTabs() {
 
   return (
     <div
-      className="w-full px-2 sm:px-0"
+      className="w-full px-2 sm:px-0 max-sm:mt-24"
       dir="rtl"
       // dir={i18n.language === "en" ? "ltr" : "rtl"}
     >
       <Tab.Group>
-        <Tab.List className="w-[400px] flex justify-end items-end space-x-1 bg-background/20">
+        <Tab.List className="w-[400px] max-sm:w-full flex justify-end items-end space-x-1 bg-background/20">
           <Tab
             className={({ selected }) =>
               classNames(
@@ -52,7 +52,7 @@ export default function TicketTabs() {
         <Tab.Panels className="rounded-b-md rounded-tl-md min-h-[60px]">
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white p-3 dark:shadow-lg",
+              "max-sm:w-[98.7%] rounded-b-md bg-black/90 dark:bg-white p-3 dark:shadow-lg",
               "focus:outline-none"
             )}
           >

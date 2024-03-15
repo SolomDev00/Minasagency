@@ -17,15 +17,17 @@ const Select = ({ id, name }: IProps) => {
            */}
           <Listbox.Button
             dir="rtl"
-            className="relative w-full cursor-pointer rounded-md py-2 px-[2px] text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm"
+            className="relative w-full cursor-pointer rounded-md py-2 px-[2px] max-sm:px-0 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm"
           >
             <span className="pointer-events-none absolute inset-y-0 left-0 flex items-center pr-2">
               <ChevronDownIcon
-                className="h-5 w-5 text-gray-400"
+                className="w-5 max-sm:w-3 text-gray-400"
                 aria-hidden="true"
               />
             </span>
-            <span className="block truncate text-right ml-6">{name}</span>
+            <span className="block truncate text-right ml-6 max-sm:text-sm">
+              {name}
+            </span>
           </Listbox.Button>
           <Transition
             as={Fragment}

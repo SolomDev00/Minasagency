@@ -22,6 +22,12 @@ body {
   overflow-x: hidden;
 }
 
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 body::-moz-focus-inner {
   color: #110726;
 }
@@ -39,6 +45,12 @@ body::-webkit-scrollbar-thumb {
 .root-layout {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 95% !important;
+  }
 }
 
 /* --- Marks --- */
@@ -128,6 +140,12 @@ body::-webkit-scrollbar-thumb {
   margin: 0 -5px !important;
 }
 
+@media (max-width: 767px) {
+  .slick-arrow {
+    margin: 0 5px !important;
+  }
+}
+
 .silder {
   display: flex !important;
   flex-direction: row;
@@ -182,10 +200,6 @@ body::-webkit-scrollbar-thumb {
   font-size: 15px;
   font-weight: bold;
 }
-
-/* .sliderT {
-  width: 175px !important;
-} */
 
 /* --- Category --- */
 .placeBox {

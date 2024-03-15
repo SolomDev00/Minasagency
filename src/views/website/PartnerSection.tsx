@@ -13,7 +13,7 @@ const PartnerSection = () => {
   return (
     <section id="category" className="container z-50">
       <div className="flex flex-row-reverse justify-between items-center mt-10 mb-[-20px]">
-        <h3 className="text-xl font-semibold">شركاء النجاح</h3>
+        <h3 className="text-xl max-sm:text-sm font-semibold">شركاء النجاح</h3>
       </div>
       <div className="flex flex-col items-center justify-center gap-5">
         <div className="flex flex-row items-center gap-6">

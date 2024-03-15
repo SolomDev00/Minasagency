@@ -105,7 +105,7 @@ const Navbar = () => {
             className="logo"
           >
             <img
-              className={`${i18n.language === "en" ? "ml-0" : "ml-6"}`}
+              className={`${i18n.language === "en" ? "ml-0" : "ml-0"}`}
               src={LogoImg}
               alt="logo"
             />

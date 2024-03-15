@@ -13,13 +13,13 @@ export default function FlightTabs() {
   // const [t, i18n] = useTranslation("global");
 
   return (
-    <div className="w-full px-2 sm:px-0" dir="rtl">
+    <div className="w-full max-sm:w-[98.7%] px-2 sm:px-0" dir="rtl">
       <Tab.Group>
-        <Tab.List className="w-[400px] flex justify-end items-end space-x-1 bg-background/20">
+        <Tab.List className="w-[400px] max-sm:w-full flex max-sm:flex-col justify-end items-end space-x-1">
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full rounded-md py-2.5 font-medium leading-5 text-base max-sm:text-base",
+                "w-full rounded-md py-2.5 max-sm:py-1 font-medium leading-5 text-base max-sm:text-sm",
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
                   ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
@@ -32,7 +32,7 @@ export default function FlightTabs() {
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full rounded-md py-2.5 text-base max-sm:text-base font-medium leading-5",
+                "w-full rounded-md py-2.5 max-sm:py-1 font-medium leading-5 text-base max-sm:text-sm",
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
                   ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
@@ -45,7 +45,7 @@ export default function FlightTabs() {
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full rounded-md py-2.5 text-base max-sm:text-base font-medium leading-5",
+                "w-full rounded-md py-2.5 max-sm:py-1 font-medium leading-5 text-base max-sm:text-sm",
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
                   ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
@@ -59,22 +59,22 @@ export default function FlightTabs() {
         <Tab.Panels className="rounded-b-md rounded-tl-md min-h-[60px]">
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "max-sm:w-[98.7%] rounded-b-md bg-black/90 dark:bg-white",
               "focus:outline-none"
             )}
           >
             <div className="py-3">
-              <div className="flex flex-row justify-between items-center gap-2 mb-5">
+              <div className="flex flex-row max-sm:flex-col justify-between items-center gap-2 mb-5">
                 <Input placeholder="من" />
                 <Input placeholder="إلي" />
                 <Input placeholder="المغادرة" />
               </div>
-              <div className="w-full flex flex-row items-center justify-between">
+              <div className="w-full flex flex-row max-sm:flex-col-reverse max-sm:gap-y-5 items-center justify-between">
                 <div className="flex flex-row justify-between items-center gap-3">
                   <input type="checkbox" className="w-6 h-6 text-primary" />
                   <h4>طيران مباشر فقط</h4>
                 </div>
-                <div className="flex flex-row gap-5">
+                <div className="flex flex-row max-sm:flex-col gap-5">
                   <div className="flex flex-row gap-2">
                     <Select name="1 بالغ" />
                     <Select name="الدرجة الإقتصادية" />

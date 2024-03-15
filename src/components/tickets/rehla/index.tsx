@@ -29,11 +29,11 @@ export default function RehlaTabs() {
   return (
     <div className="w-full px-2 sm:px-0 relative z-50" dir="rtl">
       <Tab.Group>
-        <Tab.List className="w-[630px] flex justify-end items-end space-x-2 bg-background/20">
+        <Tab.List className="w-[630px] flex justify-end max-sm:justify-normal max-sm:items-center max-sm:w-full items-end max-sm:flex-wrap max-sm:gap-4 space-x-2 bg-background/20">
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full py-1.5 text-sm max-sm:text-sm font-medium outline-none",
+                "w-full max-sm:w-[55px] py-1.5 text-sm max-sm:text-sm font-medium outline-none",
                 "focus:outline-none duration-150",
                 selected
                   ? "bg-transparent text-primary text-base font-medium border-primary"
@@ -46,7 +46,7 @@ export default function RehlaTabs() {
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full py-1.5 text-sm max-sm:text-sm font-medium outline-none",
+                "w-full max-sm:w-[55px] py-1.5 text-sm max-sm:text-sm font-medium outline-none",
                 "focus:outline-none duration-150",
                 selected
                   ? "bg-transparent text-primary text-base font-medium border-primary"
@@ -59,7 +59,7 @@ export default function RehlaTabs() {
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full py-1.5 text-sm max-sm:text-sm font-medium outline-none",
+                "w-full max-sm:w-[55px] py-1.5 text-sm max-sm:text-sm font-medium outline-none",
                 "focus:outline-none duration-150",
                 selected
                   ? "bg-transparent text-primary text-base font-medium border-primary"
@@ -72,7 +72,7 @@ export default function RehlaTabs() {
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full py-1.5 text-sm max-sm:text-sm font-medium outline-none",
+                "w-full max-sm:w-[55px] py-1.5 text-sm max-sm:text-sm font-medium outline-none",
                 "focus:outline-none duration-150",
                 selected
                   ? "bg-transparent text-primary text-base font-medium border-primary"
@@ -85,7 +85,7 @@ export default function RehlaTabs() {
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full py-1.5 text-sm max-sm:text-sm font-medium outline-none",
+                "w-full max-sm:w-[55px] py-1.5 text-sm max-sm:text-sm font-medium outline-none",
                 "focus:outline-none duration-150",
                 selected
                   ? "bg-transparent text-primary text-base font-medium border-primary"
@@ -98,7 +98,7 @@ export default function RehlaTabs() {
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full py-1.5 text-sm max-sm:text-sm font-medium outline-none",
+                "w-full max-sm:w-[55px] py-1.5 text-sm max-sm:text-sm font-medium outline-none",
                 "focus:outline-none duration-150",
                 selected
                   ? "bg-transparent text-primary text-base font-medium border-primary"
@@ -111,7 +111,7 @@ export default function RehlaTabs() {
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full py-1.5 text-sm max-sm:text-sm font-medium outline-none",
+                "w-full max-sm:w-[55px] py-1.5 text-sm max-sm:text-sm font-medium outline-none",
                 "focus:outline-none duration-150",
                 selected
                   ? "bg-transparent text-primary text-base font-medium border-primary"
@@ -124,7 +124,7 @@ export default function RehlaTabs() {
           <Tab
             className={({ selected }) =>
               classNames(
-                "w-full py-1.5 text-sm max-sm:text-sm font-medium outline-none",
+                "w-full max-sm:w-[55px] py-1.5 text-sm max-sm:text-sm font-medium outline-none",
                 "focus:outline-none duration-150",
                 selected
                   ? "bg-transparent text-primary text-base font-medium border-primary"
@@ -143,7 +143,7 @@ export default function RehlaTabs() {
             )}
           >
             <div className="flex flex-col justify-between items-center">
-              <div className="py-3 flex flex-row gap-4 mt-8">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
                 <div className="placeBox">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
@@ -205,7 +205,7 @@ export default function RehlaTabs() {
                   </div>
                 </div>
               </div>
-              <div className="py-3 flex flex-row gap-4 mt-2">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
                 <div className="placeBox">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
@@ -267,7 +267,7 @@ export default function RehlaTabs() {
                   </div>
                 </div>
               </div>
-              <div className="py-3 flex flex-row gap-4 mt-2">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
                 <div className="placeBox">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
@@ -338,7 +338,7 @@ export default function RehlaTabs() {
             )}
           >
             <div className="flex flex-col justify-between items-center">
-              <div className="py-3 flex flex-row gap-4 mt-8">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
                 <div className="placeBox">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
@@ -400,7 +400,7 @@ export default function RehlaTabs() {
                   </div>
                 </div>
               </div>
-              <div className="py-3 flex flex-row gap-4 mt-2">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
                 <div className="placeBox">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
@@ -462,7 +462,7 @@ export default function RehlaTabs() {
                   </div>
                 </div>
               </div>
-              <div className="py-3 flex flex-row gap-4 mt-2">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
                 <div className="placeBox">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
@@ -533,7 +533,7 @@ export default function RehlaTabs() {
             )}
           >
             <div className="flex flex-col justify-between items-center">
-              <div className="py-3 flex flex-row gap-4 mt-8">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
                 <div className="placeBox">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
@@ -595,7 +595,7 @@ export default function RehlaTabs() {
                   </div>
                 </div>
               </div>
-              <div className="py-3 flex flex-row gap-4 mt-2">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
                 <div className="placeBox">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
@@ -657,7 +657,7 @@ export default function RehlaTabs() {
                   </div>
                 </div>
               </div>
-              <div className="py-3 flex flex-row gap-4 mt-2">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
                 <div className="placeBox">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
