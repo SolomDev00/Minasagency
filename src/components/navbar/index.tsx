@@ -229,54 +229,23 @@ const Navbar = () => {
                       {t("navbar.about")}
                     </Link>
                   </li>
+
                   <li className="text-black text-xl hover:text-primary duration-150">
                     <Link
-                      to="/achievements"
-                      title="Achievements"
+                      to="/services"
+                      title="services"
                       onClick={handleNavLinkClick}
                     >
-                      {t("navbar.achievements")}
-                    </Link>
-                  </li>
-                  <li className="text-black text-xl hover:text-primary duration-150">
-                    <Link to="/faq" title="faq" onClick={handleNavLinkClick}>
-                      {t("navbar.faq")}
+                      {t("navbar.services")}
                     </Link>
                   </li>
                   <li className="text-black text-xl hover:text-primary duration-150">
                     <Link
-                      to="/investment"
-                      title="investment"
+                      to="/partners"
+                      title="partners"
                       onClick={handleNavLinkClick}
                     >
-                      {t("navbar.investment")}
-                    </Link>
-                  </li>
-                  <li className="text-black text-xl hover:text-primary duration-150">
-                    <Link
-                      to="/signal"
-                      title="signal"
-                      onClick={handleNavLinkClick}
-                    >
-                      {t("navbar.signal")}
-                    </Link>
-                  </li>
-                  <li className="text-black text-xl hover:text-primary duration-150">
-                    <Link
-                      to="/wallet"
-                      title="wallet"
-                      onClick={handleNavLinkClick}
-                    >
-                      {t("navbar.wallet")}
-                    </Link>
-                  </li>
-                  <li className="text-black text-xl hover:text-primary duration-150">
-                    <Link
-                      to="/marketing"
-                      title="marketing"
-                      onClick={handleNavLinkClick}
-                    >
-                      {t("navbar.marketing")}
+                      {t("navbar.partners")}
                     </Link>
                   </li>
                   <li className="text-black text-xl hover:text-primary duration-150">
