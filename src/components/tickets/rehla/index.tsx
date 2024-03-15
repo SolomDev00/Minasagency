@@ -721,6 +721,981 @@ export default function RehlaTabs() {
               </div>
             </div>
           </Tab.Panel>
+          <Tab.Panel
+            className={classNames(
+              "rounded-b-md bg-black/90 dark:bg-white",
+              "focus:outline-none"
+            )}
+          >
+            <div className="flex flex-col justify-between items-center">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AUHImg}
+                    alt="ابو ظبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ابو ظبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">3,148</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={GIZImg}
+                    alt="جيزان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">جيزان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      السعودية
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">6,904</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={DBXImg}
+                    alt="دبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">دبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={ROMImg}
+                    alt="روما"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">روما</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      إيطاليا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={VIEImg}
+                    alt="فيينا"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">فيينا</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      النمسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MCTImg}
+                    alt="مسقط"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">مسقط</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      سلطنة عمان
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AMMImg}
+                    alt="عمُان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">عمُان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الأردن
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,315</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={PARImg}
+                    alt="باريس"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">باريس</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      فرنسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MUCImg}
+                    alt="ميونيخ"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ميونيخ</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      ألمانيا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,244</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Tab.Panel>
+          <Tab.Panel
+            className={classNames(
+              "rounded-b-md bg-black/90 dark:bg-white",
+              "focus:outline-none"
+            )}
+          >
+            <div className="flex flex-col justify-between items-center">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AUHImg}
+                    alt="ابو ظبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ابو ظبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">3,148</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={GIZImg}
+                    alt="جيزان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">جيزان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      السعودية
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">6,904</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={DBXImg}
+                    alt="دبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">دبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={ROMImg}
+                    alt="روما"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">روما</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      إيطاليا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={VIEImg}
+                    alt="فيينا"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">فيينا</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      النمسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MCTImg}
+                    alt="مسقط"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">مسقط</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      سلطنة عمان
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AMMImg}
+                    alt="عمُان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">عمُان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الأردن
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,315</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={PARImg}
+                    alt="باريس"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">باريس</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      فرنسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MUCImg}
+                    alt="ميونيخ"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ميونيخ</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      ألمانيا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,244</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Tab.Panel>
+          <Tab.Panel
+            className={classNames(
+              "rounded-b-md bg-black/90 dark:bg-white",
+              "focus:outline-none"
+            )}
+          >
+            <div className="flex flex-col justify-between items-center">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AUHImg}
+                    alt="ابو ظبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ابو ظبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">3,148</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={GIZImg}
+                    alt="جيزان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">جيزان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      السعودية
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">6,904</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={DBXImg}
+                    alt="دبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">دبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={ROMImg}
+                    alt="روما"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">روما</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      إيطاليا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={VIEImg}
+                    alt="فيينا"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">فيينا</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      النمسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MCTImg}
+                    alt="مسقط"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">مسقط</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      سلطنة عمان
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AMMImg}
+                    alt="عمُان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">عمُان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الأردن
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,315</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={PARImg}
+                    alt="باريس"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">باريس</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      فرنسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MUCImg}
+                    alt="ميونيخ"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ميونيخ</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      ألمانيا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,244</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Tab.Panel>
+          <Tab.Panel
+            className={classNames(
+              "rounded-b-md bg-black/90 dark:bg-white",
+              "focus:outline-none"
+            )}
+          >
+            <div className="flex flex-col justify-between items-center">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AUHImg}
+                    alt="ابو ظبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ابو ظبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">3,148</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={GIZImg}
+                    alt="جيزان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">جيزان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      السعودية
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">6,904</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={DBXImg}
+                    alt="دبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">دبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={ROMImg}
+                    alt="روما"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">روما</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      إيطاليا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={VIEImg}
+                    alt="فيينا"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">فيينا</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      النمسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MCTImg}
+                    alt="مسقط"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">مسقط</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      سلطنة عمان
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AMMImg}
+                    alt="عمُان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">عمُان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الأردن
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,315</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={PARImg}
+                    alt="باريس"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">باريس</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      فرنسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MUCImg}
+                    alt="ميونيخ"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ميونيخ</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      ألمانيا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,244</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Tab.Panel>
+          <Tab.Panel
+            className={classNames(
+              "rounded-b-md bg-black/90 dark:bg-white",
+              "focus:outline-none"
+            )}
+          >
+            <div className="flex flex-col justify-between items-center">
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AUHImg}
+                    alt="ابو ظبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ابو ظبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">3,148</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={GIZImg}
+                    alt="جيزان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">جيزان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      السعودية
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">6,904</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={DBXImg}
+                    alt="دبي"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">دبي</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الإمارات العربية المتحدة
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={ROMImg}
+                    alt="روما"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">روما</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      إيطاليا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={VIEImg}
+                    alt="فيينا"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">فيينا</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      النمسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MCTImg}
+                    alt="مسقط"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">مسقط</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      سلطنة عمان
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,161</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={AMMImg}
+                    alt="عمُان"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">عمُان</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      الأردن
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,315</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={PARImg}
+                    alt="باريس"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">باريس</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      فرنسا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,381</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="placeBox">
+                  <img
+                    className="flex-shrink-0 h-full w-[148px]"
+                    src={MUCImg}
+                    alt="ميونيخ"
+                  />
+                  <div className="flex flex-grow flex-col p-4 items-start">
+                    <h4 className="text-base font-semibold">ميونيخ</h4>
+                    <h6 className="text-[#767676] text-xs font-normal mt-1">
+                      ألمانيا
+                    </h6>
+                    <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
+                      رحلة ذهاب و عودة
+                    </h6>
+                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                      <h6 className="">8,244</h6>
+                      <h5 className="font-normal text-xs">EGP</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Tab.Panel>
         </Tab.Panels>
       </Tab.Group>
     </div>

@@ -68,27 +68,27 @@ export default function TicketTabs() {
           >
             <h3 className="text-black/80 text-lg">أين تفضل المبيت؟</h3>
             <div className="py-3">
-              <div className="flex flex-row justify-between items-center gap-2 mb-5">
-                <div className="w-2/6 space-y-2 pb-1">
+              <div className="flex flex-row justify-between items-center gap-2 mb-5 max-sm:flex-col">
+                <div className="w-2/6 space-y-2 pb-1 max-sm:w-full">
                   <label htmlFor="wInput" className="text-black text-sm">
                     الواجهة
                   </label>
                   <Input id="wInput" placeholder="القاهرة, مصر" />
                 </div>
-                <div className="w-2/3 flex flex-row items-center justify-between gap-2">
-                  <div className="w-full space-y-2 pb-1">
+                <div className="w-2/3 flex flex-row max-sm:flex-col items-center justify-between gap-2 max-sm:w-full">
+                  <div className="w-full max-sm:w-full space-y-2 pb-1">
                     <label htmlFor="wInput" className="text-black text-sm">
                       تسجيل الوصول
                     </label>
                     <Input id="wInput" placeholder="خميس 14 مارس 24 .." />
                   </div>
-                  <div className="w-full space-y-2 pb-1">
+                  <div className="w-full max-sm:w-full space-y-2 pb-1">
                     <label htmlFor="wInput" className="text-black text-sm">
                       تسجيل خروج
                     </label>
                     <Input id="wInput" placeholder="جمعة, 15 مارس" />
                   </div>
-                  <div className="w-full space-y-2 pb-1 px-1">
+                  <div className="w-full max-sm:w-full space-y-2 pb-1 px-1">
                     <label htmlFor="wInput" className="text-black text-sm">
                       الضيوف و الغرف
                     </label>

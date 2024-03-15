@@ -95,18 +95,18 @@ export default function FlightTabs() {
             )}
           >
             <div className="py-3">
-              <div className="flex flex-row justify-between items-center gap-2 mb-5">
+              <div className="flex flex-row max-sm:flex-col justify-between items-center gap-2 mb-5">
                 <Input placeholder="من" />
                 <Input placeholder="إلي" />
                 <Input placeholder="المغادرة" />
                 <Input placeholder="العودة" />
               </div>
-              <div className="w-full flex flex-row items-center justify-between">
+              <div className="w-full flex flex-row max-sm:flex-col-reverse max-sm:gap-y-5 items-center justify-between">
                 <div className="flex flex-row justify-between items-center gap-3">
                   <input type="checkbox" className="w-6 h-6 text-primary" />
                   <h4>طيران مباشر فقط</h4>
                 </div>
-                <div className="flex flex-row gap-5">
+                <div className="flex flex-row max-sm:flex-col gap-5">
                   <div className="flex flex-row gap-2">
                     <Select name="1 بالغ" />
                     <Select name="الدرجة الإقتصادية" />
@@ -127,32 +127,32 @@ export default function FlightTabs() {
             )}
           >
             <div className="py-3">
-              <div className="flex flex-row justify-between items-center gap-2 mb-5">
+              <div className="flex flex-row max-sm:flex-col justify-between items-center gap-2 mb-5">
                 <Input placeholder="من" />
                 <Input placeholder="إلي" />
                 <Input placeholder="المغادرة" />
-                <div className="w-16 bg-gray-400 rounded-full mr-3 ml-1">
+                <div className="w-16 max-sm:w-5 bg-gray-400 rounded-full mr-3 ml-1">
                   <XMarkIcon className=" text-white" />
                 </div>
               </div>
-              <div className="flex flex-row justify-between items-center gap-2 mb-5">
+              <div className="flex flex-row max-sm:flex-col justify-between items-center gap-2 mb-5">
                 <Input placeholder="من" />
                 <Input placeholder="إلي" />
                 <Input placeholder="المغادرة" />
-                <div className="w-16 bg-gray-400 rounded-full mr-3 ml-1">
+                <div className="w-16 max-sm:w-5 bg-gray-400 rounded-full mr-3 ml-1">
                   <XMarkIcon className=" text-white" />
                 </div>
               </div>
-              <div className="flex flex-row justify-between items-center gap-2 mb-5">
+              <div className="flex flex-row max-sm:flex-col justify-between items-center gap-2 mb-5">
                 <Input placeholder="من" />
                 <Input placeholder="إلي" />
                 <Input placeholder="المغادرة" />
-                <div className="w-16 bg-gray-400 rounded-full mr-3 ml-1">
+                <div className="w-16 max-sm:w-5 bg-gray-400 rounded-full mr-3 ml-1">
                   <XMarkIcon className=" text-white" />
                 </div>
               </div>
-              <div className="w-full flex flex-row items-end justify-end">
-                <div className="flex flex-row gap-5">
+              <div className="w-full flex flex-row items-end justify-end max-sm:justify-center">
+                <div className="flex flex-row max-sm:flex-col gap-5">
                   <div className="flex flex-row gap-2">
                     <Select name="1 بالغ" />
                     <Select name="الدرجة الإقتصادية" />
