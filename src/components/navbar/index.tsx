@@ -73,8 +73,8 @@ const Navbar = () => {
   return (
     <header
       className={`header ${
-        scrolling ? "bg-[#1d1d1d]" : "bg-transparent"
-      } duration-200 ${scrolling ? "bg-[#1d1d1d]" : "bg-transparent"} ${
+        scrolling ? "bg-[#212d5d]" : "bg-transparent"
+      } duration-200 ${scrolling ? "bg-[#212d5d]" : "bg-transparent"} ${
         showMenu ? "menu-open" : ""
       } ${i18n.language === "en" ? "en" : "ar"}`}
       style={{
@@ -90,7 +90,7 @@ const Navbar = () => {
     >
       <div
         className={`menu__wrapper duration-200 ${
-          scrolling ? "bg-[#1d1d1d]" : "text-transparent"
+          scrolling ? "bg-[#212d5d]" : "text-transparent"
         }`}
         style={{
           background: `${window.scrollY < 10 ? "transparent" : ""}`,

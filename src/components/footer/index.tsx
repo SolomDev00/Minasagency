@@ -9,7 +9,7 @@ import "./Footer.style.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1d1d1d] pb-5" dir="rtl">
+    <footer className="bg-[#212d5d] pb-5" dir="rtl">
       <div className="container">
         <div className="flex max-sm:gap-3 pt-10">
           <div className="flex-shrink-0 w-1/4">
