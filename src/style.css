@@ -164,6 +164,12 @@ body::-webkit-scrollbar-thumb {
   height: 300px;
 }
 
+@media (max-width: 767px) {
+  .slick-list {
+    height: 275px !important;
+  }
+}
+
 /* --- HotalSection --- */
 .places {
   background-color: #fff;
