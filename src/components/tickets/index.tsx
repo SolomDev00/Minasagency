@@ -4,26 +4,30 @@ import { LuHotel, LuPlane, LuSearch } from "react-icons/lu";
 import Button from "../schema/Button";
 import Input from "../schema/Input";
 import Select from "../schema/Select";
+import { useTranslation } from "react-i18next";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function TicketTabs() {
-  // const [t, i18n] = useTranslation("global");
+  const [t, i18n] = useTranslation("global");
 
   return (
     <div
       className="w-full px-2 sm:px-0 max-sm:mt-24"
-      dir="rtl"
-      // dir={i18n.language === "en" ? "ltr" : "rtl"}
+      dir={i18n.language === "en" ? "ltr" : "rtl"}
     >
       <Tab.Group>
-        <Tab.List className="w-[400px] max-sm:w-full flex justify-end items-end space-x-1 bg-background/20">
+        <Tab.List className="w-[400px] max-sm:w-full flex justify-end items-end bg-background/20">
           <Tab
             className={({ selected }) =>
               classNames(
-                "flex gap-3 px-2 w-full rounded-r-0 rounded-l-0 rounded-tr-xl py-2.5 font-medium leading-5 text-xl max-sm:text-base",
+                `flex gap-3 px-2 w-full ${
+                  i18n.language === "ar"
+                    ? "rounded-r-0 rounded-l-0 rounded-tr-xl"
+                    : "rounded-l-0 rounded-r-0 rounded-tl-xl"
+                } py-2.5 font-medium leading-5 text-xl max-sm:text-base`,
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
                   ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
@@ -31,13 +35,17 @@ export default function TicketTabs() {
               )
             }
           >
-            رحلات الطيران
+            {t("ticket.flight")}
             <LuPlane />
           </Tab>
           <Tab
             className={({ selected }) =>
               classNames(
-                "flex gap-3 px-2 w-full rounded-r-0 rounded-l-0 rounded-tl-xl py-2.5 text-xl max-sm:text-base font-medium leading-5",
+                `flex gap-3 px-2 w-full ${
+                  i18n.language === "ar"
+                    ? "rounded-r-0 rounded-l-0 rounded-tl-xl"
+                    : "rounded-l-0 rounded-r-0 rounded-tr-xl"
+                } py-2.5 text-xl max-sm:text-base font-medium leading-5`,
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
                   ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
@@ -45,7 +53,7 @@ export default function TicketTabs() {
               )
             }
           >
-            فنادق
+            {t("ticket.hotal")}
             <LuHotel />
           </Tab>
         </Tab.List>
@@ -66,44 +74,44 @@ export default function TicketTabs() {
               "focus:outline-none"
             )}
           >
-            <h3 className="text-black/80 text-lg">أين تفضل المبيت؟</h3>
+            <h3 className="text-black/80 text-lg">{t("ticket.stay")}</h3>
             <div className="py-3">
               <div className="flex flex-row justify-between items-center gap-2 mb-5 max-sm:flex-col">
                 <div className="w-2/6 space-y-2 pb-1 max-sm:w-full">
                   <label htmlFor="wInput" className="text-black text-sm">
-                    الواجهة
+                    {t("ticket.destination")}
                   </label>
-                  <Input id="wInput" placeholder="القاهرة, مصر" />
+                  <Input id="wInput" placeholder={t("ticket.location")} />
                 </div>
                 <div className="w-2/3 flex flex-row max-sm:flex-col items-center justify-between gap-2 max-sm:w-full">
                   <div className="w-full max-sm:w-full space-y-2 pb-1">
                     <label htmlFor="wInput" className="text-black text-sm">
-                      تسجيل الوصول
+                      {t("ticket.checkin")}
                     </label>
-                    <Input id="wInput" placeholder="خميس 14 مارس 24 .." />
+                    <Input id="wInput" placeholder={t("ticket.checkindate")} />
                   </div>
                   <div className="w-full max-sm:w-full space-y-2 pb-1">
                     <label htmlFor="wInput" className="text-black text-sm">
-                      تسجيل خروج
+                      {t("ticket.checkout")}
                     </label>
-                    <Input id="wInput" placeholder="جمعة, 15 مارس" />
+                    <Input id="wInput" placeholder={t("ticket.checkoutdate")} />
                   </div>
                   <div className="w-full max-sm:w-full space-y-2 pb-1 px-1">
                     <label htmlFor="wInput" className="text-black text-sm">
-                      الضيوف و الغرف
+                      {t("ticket.guest")}
                     </label>
-                    <Select id="wInput" name="2 بالغين في غرفة واحدة" />
+                    <Select id="wInput" name={t("ticket.rooms")} />
                   </div>
                 </div>
               </div>
               <div className="w-full flex flex-row items-center justify-between">
                 <div className="flex flex-row justify-between items-center gap-3">
                   <input type="checkbox" className="w-6 h-6 text-primary" />
-                  <h4>إلغاء مجاني</h4>
+                  <h4>{t("ticket.free")}</h4>
                 </div>
                 <div className="flex flex-row gap-5">
                   <Button className="px-5 py-2 rounded-lg flex gap-2 hover:bg-primary/80">
-                    بحث
+                    {t("ticket.search")}
                     <LuSearch />
                   </Button>
                 </div>

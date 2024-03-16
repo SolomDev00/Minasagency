@@ -1,32 +1,43 @@
 import { useState, Fragment } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/20/solid";
+import { useTranslation } from "react-i18next";
 
 interface IProps {
   id?: string;
   name: string;
+  width?: string;
 }
 
-const Select = ({ id, name }: IProps) => {
+const Select = ({ id, name, width }: IProps) => {
   const [selected, setSelected] = useState(0);
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="w-full" id={id}>
       <Listbox value={selected} onChange={setSelected}>
         <div className="relative mt-1">
-          {/*             className="relative w-full cursor-pointer rounded-md py-2 pl-3 pr-10 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm"
-           */}
           <Listbox.Button
-            dir="rtl"
-            className="relative w-full cursor-pointer rounded-md py-2 px-[2px] max-sm:px-0 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm"
+            className={`${width} flex flex-row
+            relative w-full cursor-pointer rounded-md py-2 px-[2px] max-sm:px-0 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm`}
           >
-            <span className="pointer-events-none absolute inset-y-0 left-0 flex items-center pr-2">
+            <span
+              className={`block truncate ${
+                i18n.language === "ar" ? "text-right ml-6" : "text-left"
+              } max-sm:text-sm`}
+            >
+              {name}
+              {t("")}
+            </span>
+            <span
+              className={`pointer-events-none absolute inset-y-0 ${
+                i18n.language === "ar" ? "left-0" : "right-0"
+              } flex items-center pr-2`}
+            >
               <ChevronDownIcon
                 className="w-5 max-sm:w-3 text-gray-400"
                 aria-hidden="true"
               />
-            </span>
-            <span className="block truncate text-right ml-6 max-sm:text-sm">
-              {name}
             </span>
           </Listbox.Button>
           <Transition

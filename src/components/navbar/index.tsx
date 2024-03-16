@@ -73,8 +73,8 @@ const Navbar = () => {
   return (
     <header
       className={`header ${
-        scrolling ? "bg-[#333]" : "bg-transparent"
-      } duration-200 ${scrolling ? "bg-[#333]" : "bg-transparent"} ${
+        scrolling ? "bg-[#1d1d1d]" : "bg-transparent"
+      } duration-200 ${scrolling ? "bg-[#1d1d1d]" : "bg-transparent"} ${
         showMenu ? "menu-open" : ""
       } ${i18n.language === "en" ? "en" : "ar"}`}
       style={{
@@ -90,7 +90,7 @@ const Navbar = () => {
     >
       <div
         className={`menu__wrapper duration-200 ${
-          scrolling ? "bg-[#333]" : "text-transparent"
+          scrolling ? "bg-[#1d1d1d]" : "text-transparent"
         }`}
         style={{
           background: `${window.scrollY < 10 ? "transparent" : ""}`,
@@ -105,7 +105,9 @@ const Navbar = () => {
             className="logo"
           >
             <img
-              className={`${i18n.language === "en" ? "ml-0" : "ml-0"}`}
+              className={`${
+                i18n.language === "en" ? "ml-0" : "max-sm:ml-0 ml-6"
+              }`}
               src={LogoImg}
               alt="logo"
             />
@@ -114,7 +116,7 @@ const Navbar = () => {
             <ul className="navigation mt-4 hide">
               <li>
                 <Link
-                  className="text-white duration-150"
+                  className="text-white duration-300"
                   to="/"
                   title={t("navbar.home")}
                 >
@@ -123,7 +125,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-white duration-150"
+                  className="text-white duration-300"
                   to="/about-us"
                   title={t("navbar.about")}
                 >
@@ -132,7 +134,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-white duration-150"
+                  className="text-white duration-300"
                   to="/flight"
                   title={t("navbar.flight")}
                 >
@@ -141,7 +143,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-white duration-150"
+                  className="text-white duration-300"
                   to="/services"
                   title={t("navbar.services")}
                 >
@@ -150,7 +152,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-white duration-150"
+                  className="text-white duration-300"
                   to="/partners"
                   title={t("navbar.partners")}
                 >
