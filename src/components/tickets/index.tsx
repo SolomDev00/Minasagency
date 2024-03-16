@@ -60,7 +60,7 @@ export default function TicketTabs() {
         <Tab.Panels className="rounded-b-md rounded-tl-md min-h-[60px]">
           <Tab.Panel
             className={classNames(
-              "max-sm:w-[98.7%] rounded-b-md bg-white p-3",
+              "max-sm:w-full rounded-b-md bg-white p-3",
               "focus:outline-none"
             )}
           >

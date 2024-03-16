@@ -14,12 +14,12 @@ const Select = ({ id, name, width }: IProps) => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <div className="w-full" id={id}>
+    <div className="max-sm:w-full" id={id}>
       <Listbox value={selected} onChange={setSelected}>
         <div className="relative mt-1">
           <Listbox.Button
             className={`${width} flex flex-row
-            relative w-full cursor-pointer rounded-md py-2 px-[2px] max-sm:px-0 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm`}
+            relative max-sm:w-full cursor-pointer rounded-md py-2 px-[2px] max-sm:px-0 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm`}
           >
             <span
               className={`block truncate ${

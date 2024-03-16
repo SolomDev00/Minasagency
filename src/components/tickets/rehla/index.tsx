@@ -144,7 +144,7 @@ export default function RehlaTabs() {
           >
             <div className="flex flex-col justify-between items-center">
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={HRGImg}
@@ -164,7 +164,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ATHImg}
@@ -184,7 +184,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ISTImg}
@@ -206,7 +206,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={JTRImg}
@@ -226,7 +226,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={BUDImg}
@@ -246,7 +246,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AHBImg}
@@ -268,7 +268,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AMMImg}
@@ -288,7 +288,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={VIEImg}
@@ -308,7 +308,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ROMImg}
@@ -339,7 +339,7 @@ export default function RehlaTabs() {
           >
             <div className="flex flex-col justify-between items-center">
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={BEYImg}
@@ -359,7 +359,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={BUDImg}
@@ -379,7 +379,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ISTImg}
@@ -401,7 +401,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={DBXImg}
@@ -421,7 +421,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={CMNImg}
@@ -441,7 +441,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MADImg}
@@ -463,7 +463,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={BERImg}
@@ -483,7 +483,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={BCNImg}
@@ -503,7 +503,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={LONImg}
@@ -534,7 +534,7 @@ export default function RehlaTabs() {
           >
             <div className="flex flex-col justify-between items-center">
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AUHImg}
@@ -554,7 +554,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={GIZImg}
@@ -574,7 +574,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={DBXImg}
@@ -596,7 +596,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ROMImg}
@@ -616,7 +616,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={VIEImg}
@@ -636,7 +636,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MCTImg}
@@ -658,7 +658,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AMMImg}
@@ -678,7 +678,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={PARImg}
@@ -698,7 +698,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MUCImg}
@@ -729,7 +729,7 @@ export default function RehlaTabs() {
           >
             <div className="flex flex-col justify-between items-center">
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AUHImg}
@@ -749,7 +749,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={GIZImg}
@@ -769,7 +769,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={DBXImg}
@@ -791,7 +791,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ROMImg}
@@ -811,7 +811,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={VIEImg}
@@ -831,7 +831,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MCTImg}
@@ -853,7 +853,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AMMImg}
@@ -873,7 +873,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={PARImg}
@@ -893,7 +893,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MUCImg}
@@ -924,7 +924,7 @@ export default function RehlaTabs() {
           >
             <div className="flex flex-col justify-between items-center">
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AUHImg}
@@ -944,7 +944,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={GIZImg}
@@ -964,7 +964,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={DBXImg}
@@ -986,7 +986,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ROMImg}
@@ -1006,7 +1006,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={VIEImg}
@@ -1026,7 +1026,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MCTImg}
@@ -1048,7 +1048,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AMMImg}
@@ -1068,7 +1068,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={PARImg}
@@ -1088,7 +1088,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MUCImg}
@@ -1119,7 +1119,7 @@ export default function RehlaTabs() {
           >
             <div className="flex flex-col justify-between items-center">
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AUHImg}
@@ -1139,7 +1139,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={GIZImg}
@@ -1159,7 +1159,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={DBXImg}
@@ -1181,7 +1181,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ROMImg}
@@ -1201,7 +1201,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={VIEImg}
@@ -1221,7 +1221,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MCTImg}
@@ -1243,7 +1243,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AMMImg}
@@ -1263,7 +1263,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={PARImg}
@@ -1283,7 +1283,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MUCImg}
@@ -1314,7 +1314,7 @@ export default function RehlaTabs() {
           >
             <div className="flex flex-col justify-between items-center">
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AUHImg}
@@ -1334,7 +1334,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={GIZImg}
@@ -1354,7 +1354,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={DBXImg}
@@ -1376,7 +1376,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ROMImg}
@@ -1396,7 +1396,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={VIEImg}
@@ -1416,7 +1416,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MCTImg}
@@ -1438,7 +1438,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AMMImg}
@@ -1458,7 +1458,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={PARImg}
@@ -1478,7 +1478,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MUCImg}
@@ -1509,7 +1509,7 @@ export default function RehlaTabs() {
           >
             <div className="flex flex-col justify-between items-center">
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-8">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AUHImg}
@@ -1529,7 +1529,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={GIZImg}
@@ -1549,7 +1549,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={DBXImg}
@@ -1571,7 +1571,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={ROMImg}
@@ -1591,7 +1591,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={VIEImg}
@@ -1611,7 +1611,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MCTImg}
@@ -1633,7 +1633,7 @@ export default function RehlaTabs() {
                 </div>
               </div>
               <div className="w-full py-3 flex flex-row max-sm:flex-col gap-4 mt-2">
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={AMMImg}
@@ -1653,7 +1653,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={PARImg}
@@ -1673,7 +1673,7 @@ export default function RehlaTabs() {
                     </div>
                   </div>
                 </div>
-                <div className="placeBox">
+                <div className="placeBox max-sm:w-full">
                   <img
                     className="flex-shrink-0 h-full w-[148px]"
                     src={MUCImg}
