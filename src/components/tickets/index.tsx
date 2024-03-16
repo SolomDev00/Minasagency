@@ -30,7 +30,7 @@ export default function TicketTabs() {
                 } py-2.5 font-medium leading-5 text-xl max-sm:text-base`,
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
-                  ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
+                  ? "bg-primary text-white font-medium shadow-md border-primary"
                   : "bg-white hover:bg-primary/90 hover:text-white text-black"
               )
             }
@@ -48,7 +48,7 @@ export default function TicketTabs() {
                 } py-2.5 text-xl max-sm:text-base font-medium leading-5`,
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
-                  ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
+                  ? "bg-primary text-white font-medium shadow-md border-primary"
                   : "bg-white hover:bg-primary/90 hover:text-white text-black"
               )
             }
@@ -60,7 +60,7 @@ export default function TicketTabs() {
         <Tab.Panels className="rounded-b-md rounded-tl-md min-h-[60px]">
           <Tab.Panel
             className={classNames(
-              "max-sm:w-[98.7%] rounded-b-md bg-black/90 dark:bg-white p-3 dark:shadow-lg",
+              "max-sm:w-[98.7%] rounded-b-md bg-white p-3",
               "focus:outline-none"
             )}
           >
@@ -70,7 +70,7 @@ export default function TicketTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white p-3 dark:shadow-lg",
+              "rounded-b-md bg-white p-3",
               "focus:outline-none"
             )}
           >

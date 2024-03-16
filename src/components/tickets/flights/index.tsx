@@ -26,7 +26,7 @@ export default function FlightTabs() {
                 "w-full rounded-md py-2.5 max-sm:py-1 font-medium leading-5 text-base max-sm:text-sm",
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
-                  ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
+                  ? "bg-primary text-white font-medium shadow-md border-primary"
                   : "bg-white hover:bg-primary/90 hover:text-white text-black"
               )
             }
@@ -39,7 +39,7 @@ export default function FlightTabs() {
                 "w-full rounded-md py-2.5 max-sm:py-1 font-medium leading-5 text-base max-sm:text-sm",
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
-                  ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
+                  ? "bg-primary text-white font-medium shadow-md border-primary"
                   : "bg-white hover:bg-primary/90 hover:text-white text-black"
               )
             }
@@ -52,7 +52,7 @@ export default function FlightTabs() {
                 "w-full rounded-md py-2.5 max-sm:py-1 font-medium leading-5 text-base max-sm:text-sm",
                 "focus:outline-none border-2 border-transparent duration-150",
                 selected
-                  ? "bg-primary text-white font-medium shadow-md border-primary dark:border-transparent"
+                  ? "bg-primary text-white font-medium shadow-md border-primary"
                   : "bg-white hover:bg-primary/90 hover:text-white text-black"
               )
             }
@@ -63,7 +63,7 @@ export default function FlightTabs() {
         <Tab.Panels className="rounded-b-md rounded-tl-md min-h-[60px]">
           <Tab.Panel
             className={classNames(
-              "max-sm:w-[98.7%] rounded-b-md bg-black/90 dark:bg-white",
+              "max-sm:w-[98.7%] rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
@@ -103,7 +103,7 @@ export default function FlightTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
@@ -144,7 +144,7 @@ export default function FlightTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >

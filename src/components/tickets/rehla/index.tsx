@@ -138,7 +138,7 @@ export default function RehlaTabs() {
         <Tab.Panels className="rounded-b-md rounded-tl-md min-h-[60px]">
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
@@ -333,7 +333,7 @@ export default function RehlaTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
@@ -528,7 +528,7 @@ export default function RehlaTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
@@ -723,7 +723,7 @@ export default function RehlaTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
@@ -918,7 +918,7 @@ export default function RehlaTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
@@ -1113,7 +1113,7 @@ export default function RehlaTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
@@ -1308,7 +1308,7 @@ export default function RehlaTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
@@ -1503,7 +1503,7 @@ export default function RehlaTabs() {
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
-              "rounded-b-md bg-black/90 dark:bg-white",
+              "rounded-b-md bg-white",
               "focus:outline-none"
             )}
           >
