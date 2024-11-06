@@ -2,12 +2,13 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 import { CheckBadgeIcon, RssIcon } from "@heroicons/react/20/solid";
 import { LightBulbIcon, TicketIcon } from "@heroicons/react/24/outline";
+import Timeline from "../../components/ui/TimeLine";
 
 const AboutUsPage = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <section id="about" className="w-full h-[255vh]">
+    <section id="about" className="w-full h-auto">
       <Helmet>
         <title>About Us | Minas Company</title>
       </Helmet>
@@ -97,6 +98,7 @@ const AboutUsPage = () => {
               </div>
             </div>
           </div>
+          <Timeline />
         </div>
       </div>
     </section>
