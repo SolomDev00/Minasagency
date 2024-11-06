@@ -158,10 +158,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">3,148</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -178,10 +178,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">6,904</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -198,10 +198,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">7,048</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -220,10 +220,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -240,10 +240,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">7,538</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -260,10 +260,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">7,448</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -282,10 +282,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,315</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -302,10 +302,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -322,10 +322,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,244</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -353,10 +353,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">3,148</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -373,10 +373,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">6,904</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -393,10 +393,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">7,048</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -415,10 +415,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -435,10 +435,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">7,538</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -455,10 +455,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">7,448</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -477,10 +477,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,315</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -497,10 +497,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -517,10 +517,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,244</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -548,10 +548,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">3,148</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -568,10 +568,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">6,904</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -588,10 +588,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -610,10 +610,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -630,10 +630,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -650,10 +650,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -672,10 +672,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,315</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -692,10 +692,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -712,10 +712,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,244</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -743,10 +743,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">3,148</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -763,10 +763,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">6,904</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -783,10 +783,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -805,10 +805,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -825,10 +825,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -845,10 +845,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -867,10 +867,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,315</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -887,10 +887,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -907,10 +907,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,244</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -938,10 +938,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">3,148</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -958,10 +958,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">6,904</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -978,10 +978,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1000,10 +1000,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1020,10 +1020,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1040,10 +1040,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1062,10 +1062,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,315</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1082,10 +1082,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1102,10 +1102,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,244</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1133,10 +1133,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">3,148</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1153,10 +1153,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">6,904</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1173,10 +1173,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1195,10 +1195,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1215,10 +1215,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1235,10 +1235,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1257,10 +1257,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,315</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1277,10 +1277,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1297,10 +1297,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,244</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1328,10 +1328,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">3,148</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1348,10 +1348,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">6,904</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1368,10 +1368,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1390,10 +1390,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1410,10 +1410,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1430,10 +1430,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1452,10 +1452,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,315</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1472,10 +1472,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1492,10 +1492,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,244</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1523,10 +1523,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">3,148</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1543,10 +1543,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">6,904</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1563,10 +1563,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1585,10 +1585,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1605,10 +1605,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1625,10 +1625,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,161</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1647,10 +1647,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,315</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1667,10 +1667,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,381</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="w-1/3 placeBox max-sm:w-full">
@@ -1687,10 +1687,10 @@ export default function RehlaTabs() {
                     <h6 className="items-end text-[#767676] font-normal flex flex-grow text-sm">
                       رحلة ذهاب و عودة
                     </h6>
-                    <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
+                    {/* <div className="text-black text-xl font-semibold flex items-end gap-[2px]">
                       <h6 className="">8,244</h6>
                       <h5 className="font-normal text-xs">EGP</h5>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

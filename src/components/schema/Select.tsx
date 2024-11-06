@@ -22,17 +22,15 @@ const Select = ({ id, name, width }: IProps) => {
             relative max-sm:w-full cursor-pointer rounded-md py-2 px-[2px] max-sm:px-0 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm`}
           >
             <span
-              className={`block truncate ${
-                i18n.language === "ar" ? "text-right ml-6" : "text-left"
-              } max-sm:text-sm`}
+              className={`block truncate ${i18n.language === "ar" ? "text-right ml-6" : "text-left"
+                } max-sm:text-sm`}
             >
               {name}
               {t("")}
             </span>
             <span
-              className={`pointer-events-none absolute inset-y-0 ${
-                i18n.language === "ar" ? "left-0" : "right-0"
-              } flex items-center pr-2`}
+              className={`pointer-events-none absolute inset-y-0 ${i18n.language === "ar" ? "left-0" : "right-0"
+                } flex items-center pr-2`}
             >
               <ChevronDownIcon
                 className="w-5 max-sm:w-3 text-gray-400"
@@ -46,11 +44,10 @@ const Select = ({ id, name, width }: IProps) => {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <Listbox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm">
+            <Listbox.Options className="absolute mt-1 w-fit max-h-60 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm">
               <Listbox.Option
                 className={({ active }) =>
-                  `relative cursor-pointer select-none py-2 pl-10 pr-4 ${
-                    active ? "bg-amber-100 text-amber-900" : "text-gray-900"
+                  `relative cursor-pointer select-none py-2 pl-10 pr-4 ${active ? "bg-amber-100 text-amber-900" : "text-gray-900"
                   }`
                 }
                 value={"aa"}
@@ -58,9 +55,8 @@ const Select = ({ id, name, width }: IProps) => {
                 {({ selected }) => (
                   <>
                     <h2
-                      className={`block truncate ${
-                        selected ? "font-medium" : "font-normal"
-                      }`}
+                      className={`block truncate ${selected ? "font-medium" : "font-normal"
+                        }`}
                     >
                       Solom
                     </h2>

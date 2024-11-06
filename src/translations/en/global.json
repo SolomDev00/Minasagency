@@ -41,5 +41,53 @@
     "rooms": "2 Adult in 1 Room",
     "free": "Free cancellation",
     "search": "Search"
+  },
+  "about": {
+    "title": "Discover the true value of ",
+    "span": "travel ",
+    "title2": " With Minas.",
+    "description": "#With_Minas_Your_Travels_Don't_Forget"
+  },
+  "support": {
+    "title": "How can we ",
+    "span": "assist you ",
+    "title2": " With Minas.",
+    "description": "#With_Minas_Your_Travels_Don't_Forget"
+  },
+  "aff": {
+    "title": "Affiliate ",
+    "span": "Program ",
+    "title2": " With Minas.",
+    "description": "#With_Minas_Your_Travels_Don't_Forget"
+  },
+  "terms": {
+    "title": "Terms and ",
+    "span": "Conditions ",
+    "title2": " With Minas.",
+    "description": "#With_Minas_Your_Travels_Don't_Forget"
+  },
+  "privacy": {
+    "title": "Privacy and ",
+    "span": "Policy ",
+    "title2": " With Minas.",
+    "description": "#With_Minas_Your_Travels_Don't_Forget"
+  },
+  "hoteliers": {
+    "title": "Hotels ",
+    "span": "provided ",
+    "title2": " By Minas.",
+    "description": "#With_Minas_Your_Travels_Don't_Forget"
+  },
+  "book": {
+    "title": "Book on ",
+    "span": "Minas ",
+    "title2": "- Frequently Asked Questions",
+    "description": "#With_Minas_Your_Travels_Don't_Forget"
+  },
+  "services": {
+    "title": "Our Services ",
+    "span": "Minas ",
+    "title2": "- Frequently Asked Questions",
+    "description": "#With_Minas_Your_Travels_Don't_Forget"
   }
 }

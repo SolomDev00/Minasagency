@@ -6,6 +6,7 @@ import {
   LuYoutube,
 } from "react-icons/lu";
 import "./Footer.style.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,10 +18,14 @@ const Footer = () => {
               الشركة
             </h4>
             <ul className="mt-5">
-              <li className="text-base max-sm:text-xs text-white">عن ميناس</li>
+              <Link to="/about-us">
+                <li className="text-base max-sm:text-xs text-white">عن ميناس</li>
+              </Link>
               <li className="text-base max-sm:text-xs text-white">الصحافة</li>
               <li className="text-base max-sm:text-xs text-white">الوظائف</li>
-              <li className="text-base max-sm:text-xs text-white">اتصل بنا</li>
+              <Link to="/support">
+                <li className="text-base max-sm:text-xs text-white">اتصل بنا</li>
+              </Link>
             </ul>
           </div>
           <div className="flex-shrink-0 w-1/4">
@@ -28,20 +33,32 @@ const Footer = () => {
               اعرف المزيد
             </h4>
             <ul className="mt-5">
-              <li className="text-base max-sm:text-xs text-white">
-                احجز مع ميناس
-              </li>
-              <li className="text-base max-sm:text-xs text-white">الشركاء</li>
-              <li className="text-base max-sm:text-xs text-white">للإعلان</li>
-              <li className="text-base max-sm:text-xs text-white">
-                أصحاب الفنادق
-              </li>
-              <li className="text-base max-sm:text-xs text-white">
-                سياسة الخصوصية
-              </li>
-              <li className="text-base max-sm:text-xs text-white">
-                الشروط و الأحكام
-              </li>
+              <Link to="/book-on-minas">
+                <li className="text-base max-sm:text-xs text-white">
+                  احجز مع ميناس
+                </li>
+              </Link>
+              <Link to="/affiliate-program">
+                <li className="text-base max-sm:text-xs text-white">الشركاء</li>
+              </Link>
+              <Link to="/advertise">
+                <li className="text-base max-sm:text-xs text-white">للإعلان</li>
+              </Link>
+              <Link to="/hoteliers">
+                <li className="text-base max-sm:text-xs text-white">
+                  أصحاب الفنادق
+                </li>
+              </Link>
+              <Link to="/privacy-policy">
+                <li className="text-base max-sm:text-xs text-white">
+                  سياسة الخصوصية
+                </li>
+              </Link>
+              <Link to="/terms-of-services">
+                <li className="text-base max-sm:text-xs text-white">
+                  الشروط و الأحكام
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="flex-shrink-0 w-1/4">

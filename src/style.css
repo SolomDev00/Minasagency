@@ -54,6 +54,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* --- Marks --- */
+
+.tShadow {
+  text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.4);
+}
+
 .mark {
   position: relative;
   padding: 0 0 12.5px;
@@ -217,6 +222,213 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
   text-decoration: none;
   width: 300px;
+}
+
+/* --- About Us --- */
+.about-background {
+  border-radius: 0 0 15% 15%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.aboutBackground {
+  background-image: url(./assets/backgrounds/aboutBackground.jpg);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+  filter: blur(0.8);
+}
+
+/* --- Support --- */
+.support-background {
+  border-radius: 0 0 15% 15%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.supportBackground {
+  background-image: url(./assets/backgrounds/supportBackground.jpg);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+  filter: blur(0.8);
+}
+
+/* --- Affiliate Program --- */
+.Aff-background {
+  border-radius: 0 0 15% 15%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.affBackground {
+  background-image: url(./assets/backgrounds/affiliateBackground.jpg);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+  filter: blur(0.8);
+}
+
+/* --- Terms Of Services --- */
+.Terms-background {
+  border-radius: 0 0 15% 15%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.termsBackground {
+  background-image: url(./assets/backgrounds/termsBackground.jpg);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+  filter: blur(0.8);
+}
+
+/* --- Privacy Policy --- */
+.Privacy-background {
+  border-radius: 0 0 15% 15%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.privacyBackground {
+  background-image: url(./assets/backgrounds/privacyBackground.jpg);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+  filter: blur(0.8);
+}
+
+/* --- Advertise --- */
+.Advertise-background {
+  border-radius: 0 0 15% 15%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.advertiseBackground {
+  background-image: url(./assets/backgrounds/advertiseBackground.jpg);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+  filter: blur(0.8);
+}
+
+/* --- Hoteliers --- */
+.Hoteliers-background {
+  border-radius: 0 0 15% 15%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.hoteliersBackground {
+  background-image: url(./assets/backgrounds/hoteliersBackground.jpg);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+  filter: blur(0.8);
+}
+
+/* --- Book on Minas --- */
+.Book-background {
+  border-radius: 0 0 15% 15%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.bookBackground {
+  background-image: url(./assets/backgrounds/bookBackground.jpg);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+  filter: blur(0.8);
+}
+
+/* --- Our Services --- */
+.Services-background {
+  border-radius: 0 0 15% 15%;
+  height: 544px;
+  margin: 0 -20%;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.servicesBackground {
+  background-image: url(./assets/backgrounds/servicesBackground.jpg);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  transition: background-image 1s ease-in-out;
+  width: 100%;
+  filter: blur(0.8);
 }
 
 @tailwind base;

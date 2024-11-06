@@ -72,11 +72,9 @@ const Navbar = () => {
 
   return (
     <header
-      className={`header ${
-        scrolling ? "bg-[#212d5d]" : "bg-transparent"
-      } duration-200 ${scrolling ? "bg-[#212d5d]" : "bg-transparent"} ${
-        showMenu ? "menu-open" : ""
-      } ${i18n.language === "en" ? "en" : "ar"}`}
+      className={`header ${scrolling ? "bg-[#212d5d]" : "bg-transparent"
+        } duration-200 ${scrolling ? "bg-[#212d5d]" : "bg-transparent"} ${showMenu ? "menu-open" : ""
+        } ${i18n.language === "en" ? "en" : "ar"}`}
       style={{
         display: `${scrolling === true ? "" : "none"}`,
         background: `${window.scrollY < 10 ? "transparent" : ""}`,
@@ -89,9 +87,8 @@ const Navbar = () => {
       }}
     >
       <div
-        className={`menu__wrapper duration-200 ${
-          scrolling ? "bg-[#212d5d]" : "text-transparent"
-        }`}
+        className={`menu__wrapper duration-200 ${scrolling ? "bg-[#212d5d]" : "text-transparent"
+          }`}
         style={{
           background: `${window.scrollY < 10 ? "transparent" : ""}`,
           animation: `${window.scrollY > 50 ? "fadeUpNav 0.4s ease-out" : ""}`,
@@ -105,9 +102,8 @@ const Navbar = () => {
             className="logo"
           >
             <img
-              className={`${
-                i18n.language === "en" ? "ml-0" : "max-sm:ml-0 ml-6"
-              }`}
+              className={`${i18n.language === "en" ? "ml-0" : "max-sm:ml-0 ml-6"
+                }`}
               src={LogoImg}
               alt="logo"
             />
@@ -135,7 +131,7 @@ const Navbar = () => {
               <li>
                 <Link
                   className="text-white duration-300"
-                  to="/flight"
+                  to="/flights"
                   title={t("navbar.flight")}
                 >
                   {t("navbar.flight")}
@@ -144,7 +140,7 @@ const Navbar = () => {
               <li>
                 <Link
                   className="text-white duration-300"
-                  to="/services"
+                  to="/our-services"
                   title={t("navbar.services")}
                 >
                   {t("navbar.services")}
@@ -153,7 +149,7 @@ const Navbar = () => {
               <li>
                 <Link
                   className="text-white duration-300"
-                  to="/partners"
+                  to="/affiliate-program"
                   title={t("navbar.partners")}
                 >
                   {t("navbar.partners")}
@@ -164,15 +160,13 @@ const Navbar = () => {
         </div>
         <div className="flex flex-row items-center gap-3 mt-4">
           <div
-            className={`flex flex-row items-center gap-1 ${
-              i18n.language === "en" ? "flex-row" : "flex-row-reverse"
-            }`}
+            className={`flex flex-row items-center gap-1 ${i18n.language === "en" ? "flex-row" : "flex-row-reverse"
+              }`}
           >
             <button
               title={t("navbar.lang")}
-              className={`language-button duration-100 ${
-                i18n.language === "en" ? "english" : "arabic"
-              }`}
+              className={`language-button duration-100 ${i18n.language === "en" ? "english" : "arabic"
+                }`}
               onClick={() =>
                 handleChangeLang(i18n.language === "en" ? "ar" : "en")
               }
@@ -187,12 +181,11 @@ const Navbar = () => {
           <div className="w-[1px] h-7 bg-slate-400 hide" />
           <div className="action-buttons hide">
             <Link
-              to="/contact"
+              to="/support"
               title={t("navbar.contact")}
-              target="_blank"
-              className={`primary flex ${
-                i18n.language === "en" ? "flex-row" : "flex-row-reverse"
-              } justify-between items-center gap-2 hover:to-blue-700`}
+              // target="_blank"
+              className={`primary flex ${i18n.language === "en" ? "flex-row" : "flex-row-reverse"
+                } justify-between items-center gap-2 hover:to-blue-700`}
             >
               <PhoneIcon className="w-5 h-5" /> {t("navbar.contact")}
             </Link>
