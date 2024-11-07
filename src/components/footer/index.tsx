@@ -8,6 +8,7 @@ import {
 import "./Footer.style.css";
 import { Link } from "react-router-dom";
 
+
 const Footer = () => {
   return (
     <footer className="bg-[#212d5d] pb-5" dir="rtl">
@@ -67,16 +68,16 @@ const Footer = () => {
             </h4>
             <ul className="mt-5">
               <li className="text-base max-sm:text-xs text-white">
-                دليل المطار
+                تأشيرات الآمارات
               </li>
               <li className="text-base max-sm:text-xs text-white">
-                دليل الخطوط الجوية
+                حجوزات التذاكر
               </li>
               <li className="text-base max-sm:text-xs text-white">
-                مواعيد رحلات الطٌيران
+                حجوزات الفنادق
               </li>
               <li className="text-base max-sm:text-xs text-white">
-                سلاسل الفنادق
+              خدمات الحج والعمرة 
               </li>
             </ul>
           </div>
@@ -93,7 +94,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div>   
         <div className="w-full h-[1px] bg-[#565656] mt-6 mb-2" />
         <div className="w-full flex flex-row-reverse max-sm:flex-col-reverse max-sm:gap-y-1 justify-between items-center">
           <p className="text-sm text-white">

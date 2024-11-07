@@ -13,7 +13,7 @@ import Bankak from '../../assets/payments/bankak.png'
 import Aljazira from '../../assets/payments/al-jazira.png'
 import BanqueMisr from '../../assets/payments/banque-misr.png'
 
-const PartnerSection = () => {
+const PaymentSection = () => {
   return (
     <section id="category" className="container z-50">
       <div className="flex flex-row-reverse justify-between items-center mt-10 mb-[-20px]">
@@ -90,4 +90,4 @@ const PartnerSection = () => {
   );
 };
 
-export default PartnerSection;
+export default PaymentSection;
