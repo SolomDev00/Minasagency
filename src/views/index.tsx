@@ -4,6 +4,7 @@ import FeatureSection from "./website/FeatureSection";
 import HotalSection from "./website/HotalSection";
 import LandingSection from "./website/LandingSection";
 import PartnerSection from "./website/PartnerSection";
+import PaymentSection from "./website/PaymentSection";
 import TicketSection from "./website/TicketSection";
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
       <HotalSection />
       <CategorySection />
       <PartnerSection />
+      <PaymentSection />
     </div>
   );
 };

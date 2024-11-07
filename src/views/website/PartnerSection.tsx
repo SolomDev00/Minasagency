@@ -8,10 +8,6 @@ import QaterImg from "../../assets/partners/qater.png";
 import SaudiaImg from "../../assets/partners/saudia.png";
 import SudanalwaysImg from "../../assets/partners/sudanalways.png";
 import TarcoImg from "../../assets/partners/tarco.png";
-import ADBC from '../../assets/payments/adcb.png'
-import Bankak from '../../assets/payments/bankak.png'
-import Aljazira from '../../assets/payments/al-jazira.png'
-import BanqueMisr from '../../assets/payments/banque-misr.png'
 
 const PartnerSection = () => {
   return (
@@ -73,17 +69,6 @@ const PartnerSection = () => {
             src={SudanalwaysImg}
             alt="Flydubai"
           />
-        </div>
-      </div>
-      <div className="w-10/12 flex items-center">
-        <h4 className="text-lg max-sm:text-base text-white font-medium">
-          وسائل الدفع
-        </h4>
-        <div className="w-full flex items-center justify-between mt-5">
-          <img className="w-24" src={ADBC} alt="ADCB" />
-          <img className="w-24" src={Bankak} alt="ADCB" />
-          <img className="w-24" src={Aljazira} alt="ADCB" />
-          <img className="w-24" src={BanqueMisr} alt="ADCB" />
         </div>
       </div>
     </section>
