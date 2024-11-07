@@ -15,7 +15,7 @@ export default function FlightTabs() {
 
   return (
     <div
-      className="w-full max-sm:w-[98.7%] px-2 sm:px-0"
+      className="blur-sm pointer-events-none w-full max-sm:w-[98.7%] px-2 sm:px-0"
       dir={i18n.language === "en" ? "ltr" : "rtl"}
     >
       <Tab.Group>

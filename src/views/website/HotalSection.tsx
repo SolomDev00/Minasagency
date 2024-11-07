@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Image } from 'primereact/image';
 import Slider from "react-slick";
 import DHBImg from "../../assets/places/DHB.webp";
 import ASWImg from "../../assets/places/ASW.webp";

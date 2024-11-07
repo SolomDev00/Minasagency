@@ -19,7 +19,7 @@ export default function TicketTabs() {
       dir={i18n.language === "en" ? "ltr" : "rtl"}
     >
       <Tab.Group>
-        <Tab.List className="w-[400px] max-sm:w-full flex justify-end items-end bg-background/20">
+        <Tab.List className="pointer-events-none w-[400px] max-sm:w-full flex justify-end items-end bg-background/20">
           <Tab
             className={({ selected }) =>
               classNames(
@@ -64,7 +64,9 @@ export default function TicketTabs() {
               "focus:outline-none"
             )}
           >
-            <div className="py-3 px-3">
+            {/* <div className="py-3 px-3"> */}
+            <div className="relative w-full py-3 px-3 text-center">
+              <h2 className="absolute top-2/4 left-[30%] z-50 text-3xl text-black">قريباً ميزة حجز التذاكر من ميناس</h2>
               <FlightTabs />
             </div>
           </Tab.Panel>

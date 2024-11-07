@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/20/solid";
 import { useTranslation } from "react-i18next";
 import UK from "../../assets/uk.png";
-import UAE from "../../assets/uae.png";
+import EG from "../../assets/eg.png";
 import { Link } from "react-router-dom";
 import LogoImg from "../../assets/light.png";
 
@@ -174,7 +174,7 @@ const Navbar = () => {
               {i18n.language === "en" ? (
                 <img className="w-6" src={UK} alt="english" />
               ) : (
-                <img className="w-6" src={UAE} alt="arabic" />
+                  <img className="w-6" src={EG} alt="arabic" />
               )}
             </button>
           </div>
