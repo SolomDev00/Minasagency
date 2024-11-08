@@ -7,7 +7,7 @@ import ReactDOM from "react-dom/client";
 import global_en from "./translations/en/global.json";
 import global_ar from "./translations/ar/global.json";
 import { I18nextProvider, initReactI18next } from "react-i18next";
-// import LanguageDecetor from 'i18next-browser-languagedetecotor'
+// import LanguageDecetor from 'i18next-browser-languagedecetor'
 
 i18n.use(initReactI18next)
 // .use(LanguageDecetor)
@@ -16,7 +16,6 @@ i18n.use(initReactI18next)
     en: { global: global_en },
     ar: { global: global_ar },
   },
-
   fallbackLng: "en",
 });
 

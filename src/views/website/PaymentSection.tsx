@@ -11,9 +11,9 @@ const PaymentSection = () => {
       </div>
         <div className="flex flex-row items-center justify-center gap-10">
           <img className="w-24" src={ADBC} alt="ADCB" />
-          <img className="w-48" src={Bankak} alt="ADCB" />
-          <img className="w-24" src={Aljazira} alt="ADCB" />
-          <img className="w-24" src={BanqueMisr} alt="ADCB" />
+          <img className="w-48" src={Bankak} alt="Bankak" />
+          <img className="w-24" src={Aljazira} alt="Aljazira" />
+        <img className="w-24" src={BanqueMisr} alt="BanqueMisr" />
       </div>
     </section>
   );

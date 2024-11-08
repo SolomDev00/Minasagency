@@ -10,9 +10,9 @@ const FeatureSection = () => {
         <div className="w-[350px] p-2 flex flex-col justify-center items-center rounded-lg shadow-lg">
           <img className="w-20 h-20 mb-3" src={AppImg} alt="app" />
           <div className="text-center">
-            <h4 className="text-base font-semibold">أفضل تطبيق للحجز</h4>
+            <h4 className="text-base font-semibold">أفضل منصة للرحلات</h4>
             <p className="text-sm text-gray-500">
-              حصل علي تقييمات كثيرة في مصر و الوطن العربي
+              حصل علي تقييمات كثيرة في مصر و السودان
             </p>
           </div>
         </div>
